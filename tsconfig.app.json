@@ -17,3 +17,4 @@
     "src/**/*.d.ts"
   ]
 }
+//the place where the regular code is compiled

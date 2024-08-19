@@ -1,0 +1,14 @@
+<h1>Welcome to {{title}}</h1>
+<p>{{counter}}</p>
+
+<div [hidden]="hide">
+    <div [innerText]="counter"></div>
+</div>
+<div *ngIf="myOrder.id > 0">
+    order number one
+</div>
+<div *ngIf="myOrder.id <= 0">
+    no orders
+</div>
+
+<button (click)="toggle()">Toggle</button>
